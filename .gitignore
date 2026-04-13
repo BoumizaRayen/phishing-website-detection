@@ -1,0 +1,30 @@
+# Environnements virtuels
+venv/
+env/
+.env
+
+# Fichiers compilés Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Caches de tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Modèles ML et artefacts générés (fichiers lourds)
+artifacts/
+*.joblib
+*.pkl
+*.model
+
+# Bases de données locales
+*.db
+*.sqlite3
+phishguard.db
+
+# OS généré
+.DS_Store
+Thumbs.db
