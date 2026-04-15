@@ -333,17 +333,6 @@ Les tests couvrent notamment :
 - la prediction ;
 - la sante de l'API.
 
-## Documentation projet
-
-- Rapport technique markdown : `RAPPORT.md`
-- Rapport PDF genere : `docs/rapport-phishguard.pdf`
-- Script de generation du PDF : `scripts/build_report.ps1`
-
-Generation du PDF :
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\build_report.ps1
-```
 
 ## Limites actuelles
 
